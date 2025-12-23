@@ -1,0 +1,472 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/codespace/nvm/current/bin/node',
+1 verbose cli   '/home/codespace/nvm/current/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react@18.2.0' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink /home/codespace/nvm/current/bin/node
+5 silly cache add args [ 'react@18.2.0', null ]
+6 verbose cache add spec react@18.2.0
+7 silly cache add parsed spec { raw: 'react@18.2.0',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'react',
+7 silly cache add   rawSpec: '18.2.0',
+7 silly cache add   spec: '18.2.0',
+7 silly cache add   type: 'version' }
+8 verbose addNamed react@18.2.0
+9 silly addNamed semver.valid 18.2.0
+10 silly addNamed semver.validRange 18.2.0
+11 silly mapToRegistry name react
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/react
+15 verbose addNameVersion registry:https://registry.npmjs.org/react not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/react
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 2:15:31 AM
+19 verbose request id 6a966fe7bacbdbf0
+20 verbose etag W/"efc72f00a23fd13e3c1d347efe698eff"
+21 verbose lastModified Thu, 18 Dec 2025 18:59:05 GMT
+22 http request GET https://registry.npmjs.org/react
+23 http 304 https://registry.npmjs.org/react
+24 silly get cb [ 304,
+24 silly get   { date: 'Fri, 19 Dec 2025 02:15:31 GMT',
+24 silly get     connection: 'keep-alive',
+24 silly get     server: 'cloudflare',
+24 silly get     'cf-ray': '9b0364887d0f3938-IAD',
+24 silly get     'cf-cache-status': 'HIT',
+24 silly get     'access-control-allow-origin': '*',
+24 silly get     age: '294',
+24 silly get     'cache-control': 'public, max-age=300',
+24 silly get     etag: '"efc72f00a23fd13e3c1d347efe698eff"',
+24 silly get     'last-modified': 'Thu, 18 Dec 2025 18:59:05 GMT',
+24 silly get     vary: 'Accept-Encoding',
+24 silly get     'set-cookie': [ '_cfuvid=iIevCPGS6ljsqjI1QxK5ONfIAugQ.7X3WJ3sFYoVgtY-1766110531989-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ] } ]
+25 verbose etag https://registry.npmjs.org/react from cache
+26 verbose get saving react to /home/codespace/.npm/registry.npmjs.org/react/.cache.json
+27 silly mapToRegistry name react
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/react
+31 verbose addRemoteTarball https://registry.npmjs.org/react/-/react-18.2.0.tgz not in flight; adding
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-18.2.0.tgz',
+32 verbose addRemoteTarball   '555bd98592883255fa00de14f1151a917b5d77d5' ]
+33 info retry fetch attempt 1 at 2:15:32 AM
+34 info attempt registry request try #1 at 2:15:32 AM
+35 http fetch GET https://registry.npmjs.org/react/-/react-18.2.0.tgz
+36 http fetch 200 https://registry.npmjs.org/react/-/react-18.2.0.tgz
+37 silly fetchAndShaCheck shasum 555bd98592883255fa00de14f1151a917b5d77d5
+38 verbose addTmpTarball /tmp/npm-22582-280ea382/registry.npmjs.org/react/-/react-18.2.0.tgz not in flight; adding
+39 verbose addTmpTarball already have metadata; skipping unpack for react@18.2.0
+40 silly cache afterAdd react@18.2.0
+41 verbose afterAdd /home/codespace/.npm/react/18.2.0/package/package.json not in flight; writing
+42 verbose afterAdd /home/codespace/.npm/react/18.2.0/package/package.json written
+43 silly install resolved [ { name: 'react',
+43 silly install resolved     version: '18.2.0',
+43 silly install resolved     keywords: [ 'react' ],
+43 silly install resolved     license: 'MIT',
+43 silly install resolved     _id: 'react@18.2.0',
+43 silly install resolved     maintainers:
+43 silly install resolved      [ [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object] ],
+43 silly install resolved     homepage: 'https://reactjs.org/',
+43 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+43 silly install resolved     dist:
+43 silly install resolved      { shasum: '555bd98592883255fa00de14f1151a917b5d77d5',
+43 silly install resolved        tarball: 'https://registry.npmjs.org/react/-/react-18.2.0.tgz',
+43 silly install resolved        fileCount: 20,
+43 silly install resolved        integrity: 'sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==',
+43 silly install resolved        signatures: [Object],
+43 silly install resolved        unpackedSize: 316108,
+43 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiqOWeACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoECw//QMI1Qhe6EvvhDEk8J/2Isap0QvYd8hnk1AXTVepDmoG1lbbT\r\n79ixKRxVJenkva4h/q66/ati80BH5GkKl26Q37gdV73e8OwECrS+3PfyEqqZ\r\nYlST029ICXSiZ8iNJm18Tl+db6UMJ4PwDyPMomCEiwgtWHkB2QVPejHdZnqj\r\nDhy4sM91BhzhJbEhsDcjG97u9c6+eMJYT15uraOBt0447qM0uqr/R+qD5Wil\r\nMzbmqVUT8wk09vGxpXeOfqWwDvRXwlEAJZEKrAp0G8QLTERv97QP1dnMfQ/z\r\nN1S0D3nVi2Z/5y6dwLhvNUA9cYomKO1Aqjb/rC6xiqJSI2WW9diLXjxO1y/e\r\nSwpViB1AGrj3pJDcyMHpdZboYJBDaHu8kGAiRe0q8n5Ytyq/kUkm1Nzd7v05\r\nLPz//TBwzcWIk+GUe4QwPr9llQUBtnQ/zmZ/zFTNmWZy/n/6VDJaPGZLrxBM\r\nJFaLaFQPDCM7BWnDIxlSzXRuHRxwfLKTLrCNpf42qDOS47DBZLFxrrgo++Vv\r\nGqHtn/h0/ljUYFM9HqzYiKHPpqlfKR/7ZfMrHUj5bhK2qa2myY3YShpKLt6q\r\nrEmt1sc644vphuf1pMtWC7eFD+RxblhD2ppp6rwtweQx55ykdJIG9j6yvMra\r\n6GUbN6wNDv2iU+boWdm4uvf8Ptip0HwQWIw=\r\n=Ca+R\r\n-----END PGP SIGNATURE-----\r\n' },
+43 silly install resolved     main: 'index.js',
+43 silly install resolved     engines: { node: '>=0.10.0' },
+43 silly install resolved     exports:
+43 silly install resolved      { '.': [Object],
+43 silly install resolved        './jsx-runtime': './jsx-runtime.js',
+43 silly install resolved        './package.json': './package.json',
+43 silly install resolved        './jsx-dev-runtime': './jsx-dev-runtime.js' },
+43 silly install resolved     gitHead: 'be229c5655074642ee664f532f2e7411dd7dccc7',
+43 silly install resolved     _npmUser: { name: 'gnoff', email: 'jcs.gnoff@gmail.com' },
+43 silly install resolved     browserify: { transform: [Object] },
+43 silly install resolved     repository:
+43 silly install resolved      { url: 'git+https://github.com/facebook/react.git',
+43 silly install resolved        type: 'git',
+43 silly install resolved        directory: 'packages/react' },
+43 silly install resolved     _npmVersion: '8.1.2',
+43 silly install resolved     description: 'React is a JavaScript library for building user interfaces.',
+43 silly install resolved     directories: {},
+43 silly install resolved     _nodeVersion: '17.1.0',
+43 silly install resolved     dependencies: { 'loose-envify': '^1.1.0' },
+43 silly install resolved     _hasShrinkwrap: false,
+43 silly install resolved     _npmOperationalInternal:
+43 silly install resolved      { tmp: 'tmp/react_18.2.0_1655235998145_0.3695712105131552',
+43 silly install resolved        host: 's3://npm-registry-packages' },
+43 silly install resolved     _shasum: '555bd98592883255fa00de14f1151a917b5d77d5',
+43 silly install resolved     _resolved: 'https://registry.npmjs.org/react/-/react-18.2.0.tgz',
+43 silly install resolved     _from: 'react@18.2.0' } ]
+44 info install react@18.2.0 into /workspaces/clone-dev-news
+45 info installOne react@18.2.0
+46 verbose installOne of react to /workspaces/clone-dev-news not in flight; installing
+47 verbose lock using /home/codespace/.npm/_locks/react-d04e219dea3d3803.lock for /workspaces/clone-dev-news/node_modules/react
+48 silly install write writing react 18.2.0 to /workspaces/clone-dev-news/node_modules/react
+49 silly cache addNamed cb react@18.2.0
+50 verbose unbuild node_modules/react
+51 info preuninstall react@18.3.1
+52 info uninstall react@18.3.1
+53 verbose unbuild rmStuff react@18.3.1 from /workspaces/clone-dev-news/node_modules
+54 info postuninstall react@18.3.1
+55 verbose gentlyRm vacuuming /workspaces/clone-dev-news/node_modules/react
+56 silly gentlyRm purging /workspaces/clone-dev-news/node_modules/react
+57 silly gentlyRm quitting because other entries in /workspaces/clone-dev-news/node_modules
+58 verbose tar unpack /home/codespace/.npm/react/18.2.0/package.tgz
+59 verbose tar unpacking to /workspaces/clone-dev-news/node_modules/react
+60 verbose gentlyRm vacuuming /workspaces/clone-dev-news/node_modules/react
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry LICENSE
+63 silly gunzTarPerm extractEntry index.js
+64 silly gunzTarPerm extractEntry jsx-dev-runtime.js
+65 silly gunzTarPerm extractEntry jsx-runtime.js
+66 silly gunzTarPerm extractEntry cjs/react-jsx-dev-runtime.development.js
+67 silly gunzTarPerm extractEntry cjs/react-jsx-dev-runtime.production.min.js
+68 silly gunzTarPerm extractEntry cjs/react-jsx-dev-runtime.profiling.min.js
+69 silly gunzTarPerm extractEntry cjs/react-jsx-runtime.development.js
+70 silly gunzTarPerm extractEntry cjs/react-jsx-runtime.production.min.js
+71 silly gunzTarPerm extractEntry cjs/react-jsx-runtime.profiling.min.js
+72 silly gunzTarPerm extractEntry cjs/react.development.js
+73 silly gunzTarPerm extractEntry umd/react.development.js
+74 silly gunzTarPerm extractEntry cjs/react.production.min.js
+75 silly gunzTarPerm extractEntry umd/react.production.min.js
+76 silly gunzTarPerm extractEntry umd/react.profiling.min.js
+77 silly gunzTarPerm extractEntry cjs/react.shared-subset.development.js
+78 silly gunzTarPerm extractEntry react.shared-subset.js
+79 silly gunzTarPerm extractEntry cjs/react.shared-subset.production.min.js
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm extractEntry README.md
+82 info preinstall react@18.2.0
+83 silly prepareForInstallMany adding loose-envify@^1.1.0 from react dependencies
+84 silly cache add args [ 'loose-envify@^1.1.0', null ]
+85 verbose cache add spec loose-envify@^1.1.0
+86 silly cache add parsed spec { raw: 'loose-envify@^1.1.0',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'loose-envify',
+86 silly cache add   rawSpec: '^1.1.0',
+86 silly cache add   spec: '>=1.1.0 <2.0.0',
+86 silly cache add   type: 'range' }
+87 verbose addNamed loose-envify@>=1.1.0 <2.0.0
+88 silly addNamed semver.valid null
+89 silly addNamed semver.validRange >=1.1.0 <2.0.0
+90 silly addNameRange { name: 'loose-envify', range: '>=1.1.0 <2.0.0', hasData: false }
+91 silly mapToRegistry name loose-envify
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+95 verbose addNameRange registry:https://registry.npmjs.org/loose-envify not in flight; fetching
+96 verbose request uri https://registry.npmjs.org/loose-envify
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 2:15:32 AM
+99 verbose etag W/"4ba161016ce13de8a39dcdf2180ac7cd"
+100 verbose lastModified Sun, 23 Jul 2023 04:49:39 GMT
+101 http request GET https://registry.npmjs.org/loose-envify
+102 http 304 https://registry.npmjs.org/loose-envify
+103 silly get cb [ 304,
+103 silly get   { date: 'Fri, 19 Dec 2025 02:15:32 GMT',
+103 silly get     connection: 'keep-alive',
+103 silly get     server: 'cloudflare',
+103 silly get     'cf-ray': '9b03648b8fcba2d1-IAD',
+103 silly get     'cf-cache-status': 'HIT',
+103 silly get     'access-control-allow-origin': '*',
+103 silly get     age: '265',
+103 silly get     'cache-control': 'public, max-age=300',
+103 silly get     etag: '"4ba161016ce13de8a39dcdf2180ac7cd"',
+103 silly get     'last-modified': 'Sun, 23 Jul 2023 04:49:39 GMT',
+103 silly get     vary: 'Accept-Encoding',
+103 silly get     'set-cookie': [ '_cfuvid=psCtxw3KJbjQqtKjhKG5E_2p2EbBREwsJve0Yg6D6mI-1766110532425-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ] } ]
+104 verbose etag https://registry.npmjs.org/loose-envify from cache
+105 verbose get saving loose-envify to /home/codespace/.npm/registry.npmjs.org/loose-envify/.cache.json
+106 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.1.0 <2.0.0', hasData: true }
+107 silly addNameRange versions [ 'loose-envify',
+107 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '1.3.0', '1.3.1', '1.4.0' ] ]
+108 verbose addNamed loose-envify@1.4.0
+109 silly addNamed semver.valid 1.4.0
+110 silly addNamed semver.validRange 1.4.0
+111 silly cache afterAdd loose-envify@1.4.0
+112 verbose afterAdd /home/codespace/.npm/loose-envify/1.4.0/package/package.json not in flight; writing
+113 verbose afterAdd /home/codespace/.npm/loose-envify/1.4.0/package/package.json written
+114 silly install resolved [ { name: 'loose-envify',
+114 silly install resolved     version: '1.4.0',
+114 silly install resolved     description: 'Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST',
+114 silly install resolved     keywords:
+114 silly install resolved      [ 'environment',
+114 silly install resolved        'variables',
+114 silly install resolved        'browserify',
+114 silly install resolved        'browserify-transform',
+114 silly install resolved        'transform',
+114 silly install resolved        'source',
+114 silly install resolved        'configuration' ],
+114 silly install resolved     homepage: 'https://github.com/zertosh/loose-envify',
+114 silly install resolved     license: 'MIT',
+114 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+114 silly install resolved     main: 'index.js',
+114 silly install resolved     bin: { 'loose-envify': 'cli.js' },
+114 silly install resolved     repository:
+114 silly install resolved      { type: 'git',
+114 silly install resolved        url: 'git://github.com/zertosh/loose-envify.git' },
+114 silly install resolved     scripts: { test: 'tap test/*.js' },
+114 silly install resolved     dependencies: { 'js-tokens': '^3.0.0 || ^4.0.0' },
+114 silly install resolved     devDependencies: { browserify: '^13.1.1', envify: '^3.4.0', tap: '^8.0.0' },
+114 silly install resolved     gitHead: 'a8fdd02e3a435195f526053882d64537d627b3e6',
+114 silly install resolved     bugs: { url: 'https://github.com/zertosh/loose-envify/issues' },
+114 silly install resolved     _id: 'loose-envify@1.4.0',
+114 silly install resolved     _npmVersion: '6.1.0',
+114 silly install resolved     _nodeVersion: '10.6.0',
+114 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+114 silly install resolved     dist:
+114 silly install resolved      { integrity: 'sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==',
+114 silly install resolved        shasum: '71ee51fa7be4caec1a63839f7e682d8132d30caf',
+114 silly install resolved        tarball: 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz',
+114 silly install resolved        fileCount: 8,
+114 silly install resolved        unpackedSize: 5814,
+114 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbRJP5CRA9TVsSAnZWagAAQQ4P+wRneDh61dzk3uPX6QCb\nZ97i+VxSY74ti8gVGSCryXFkL8zPsjlBd1/yADnaS5y6InlHuHQZQ2820I3x\ngfSjlhCU9drbF8vXw7FSxIRQfFO5JvF7+L5M1mvsDVmz024M+97DQwFnRjo5\nCvSDVLC/HbnnTRX1Cfj9kQlDVS85RhLaDvYWendfUfivp++TwUizDUTS8nOu\nVIiwXygaef55bBmo+yNeQa+GmyAWET3jAaPl0MNBht6jtnMY9ZkgwXc03zaE\n0wRcOZbBfhUKk1VEk2TCN/TtN+AyktbI5rmyQXoHBGn3HjZntI/LjLmAw9dD\ndetTKPf1O2n8KLT/tGZjIRQjQWNbB51thQ4H3KsMBSfbIhdnZvFHmnDKilug\nIGjE4lKa4px0/ac+SBw6wQuZMy4I3xCbZd59qSpPB3IO0E+Qm+rhLdUiMDjf\n2y49xwMB7dixjRv7sLLqYwiSkXGkLp1N81drN7oNoZaLxOVCbJQKYoHwnsY4\ncoRc7W768FaKwZJPIWfZK2u2MAq5TL4v2+2laxAn25K5Qs6hh8rguSho7iPR\nZcaKA/maVJo8BGO+CEqvaysfUbnYZ06VOFnzG/TbLnLlmZUMMex95z8RloP8\n4kcoh3muuqd75sMUDURgjFCvXbQeORMZ3sa+G8h716pUVjvKLu5xNOF7qCN0\npadk\r\n=rcpJ\r\n-----END PGP SIGNATURE-----\r\n',
+114 silly install resolved        signatures: [Object] },
+114 silly install resolved     maintainers: [ [Object] ],
+114 silly install resolved     directories: {},
+114 silly install resolved     _npmOperationalInternal:
+114 silly install resolved      { host: 's3://npm-registry-packages',
+114 silly install resolved        tmp: 'tmp/loose-envify_1.4.0_1531220985830_0.4259877346481684' },
+114 silly install resolved     _hasShrinkwrap: false,
+114 silly install resolved     _shasum: '71ee51fa7be4caec1a63839f7e682d8132d30caf',
+114 silly install resolved     _resolved: 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz',
+114 silly install resolved     _from: 'loose-envify@>=1.1.0 <2.0.0',
+114 silly install resolved     readme: 'ERROR: No README data found!' } ]
+115 info install loose-envify@1.4.0 into /workspaces/clone-dev-news/node_modules/react
+116 info installOne loose-envify@1.4.0
+117 verbose installOne of loose-envify to /workspaces/clone-dev-news/node_modules/react not in flight; installing
+118 verbose lock using /home/codespace/.npm/_locks/loose-envify-48795b1356395cb1.lock for /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+119 silly install write writing loose-envify 1.4.0 to /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+120 silly cache addNamed cb loose-envify@1.4.0
+121 verbose unbuild node_modules/react/node_modules/loose-envify
+122 verbose gentlyRm vacuuming /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+123 verbose tar unpack /home/codespace/.npm/loose-envify/1.4.0/package.tgz
+124 verbose tar unpacking to /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+125 verbose gentlyRm vacuuming /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+126 silly gunzTarPerm modes [ '755', '644' ]
+127 silly gunzTarPerm extractEntry package.json
+128 silly gunzTarPerm extractEntry cli.js
+129 silly gunzTarPerm extractEntry custom.js
+130 silly gunzTarPerm extractEntry index.js
+131 silly gunzTarPerm extractEntry LICENSE
+132 silly gunzTarPerm extractEntry loose-envify.js
+133 silly gunzTarPerm extractEntry README.md
+134 silly gunzTarPerm extractEntry replace.js
+135 info preinstall loose-envify@1.4.0
+136 silly prepareForInstallMany adding js-tokens@^3.0.0 || ^4.0.0 from loose-envify dependencies
+137 silly cache add args [ 'js-tokens@^3.0.0 || ^4.0.0', null ]
+138 verbose cache add spec js-tokens@^3.0.0 || ^4.0.0
+139 silly cache add parsed spec { raw: 'js-tokens@^3.0.0 || ^4.0.0',
+139 silly cache add   scope: null,
+139 silly cache add   name: 'js-tokens',
+139 silly cache add   rawSpec: '^3.0.0 || ^4.0.0',
+139 silly cache add   spec: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+139 silly cache add   type: 'range' }
+140 verbose addNamed js-tokens@>=3.0.0 <4.0.0||>=4.0.0 <5.0.0
+141 silly addNamed semver.valid null
+142 silly addNamed semver.validRange >=3.0.0 <4.0.0||>=4.0.0 <5.0.0
+143 silly addNameRange { name: 'js-tokens',
+143 silly addNameRange   range: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+143 silly addNameRange   hasData: false }
+144 silly mapToRegistry name js-tokens
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+148 verbose addNameRange registry:https://registry.npmjs.org/js-tokens not in flight; fetching
+149 verbose request uri https://registry.npmjs.org/js-tokens
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 2:15:32 AM
+152 verbose etag W/"488e2a360e53c8c0eafd527c976f82c5"
+153 verbose lastModified Mon, 08 Dec 2025 21:09:56 GMT
+154 http request GET https://registry.npmjs.org/js-tokens
+155 http 304 https://registry.npmjs.org/js-tokens
+156 silly get cb [ 304,
+156 silly get   { date: 'Fri, 19 Dec 2025 02:15:32 GMT',
+156 silly get     connection: 'keep-alive',
+156 silly get     server: 'cloudflare',
+156 silly get     'cf-ray': '9b03648bfb77dda7-IAD',
+156 silly get     'cf-cache-status': 'HIT',
+156 silly get     'access-control-allow-origin': '*',
+156 silly get     age: '210',
+156 silly get     'cache-control': 'public, max-age=300',
+156 silly get     etag: '"488e2a360e53c8c0eafd527c976f82c5"',
+156 silly get     'last-modified': 'Mon, 08 Dec 2025 21:09:56 GMT',
+156 silly get     vary: 'Accept-Encoding',
+156 silly get     'set-cookie': [ '_cfuvid=9DBYOsalqa.krAu08zIaAVXfaXTL0PILzZ2nHoHnjGc-1766110532508-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None' ] } ]
+157 verbose etag https://registry.npmjs.org/js-tokens from cache
+158 verbose get saving js-tokens to /home/codespace/.npm/registry.npmjs.org/js-tokens/.cache.json
+159 silly addNameRange number 2 { name: 'js-tokens',
+159 silly addNameRange   range: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+159 silly addNameRange   hasData: true }
+160 silly addNameRange versions [ 'js-tokens',
+160 silly addNameRange   [ '0.1.0',
+160 silly addNameRange     '0.2.0',
+160 silly addNameRange     '0.3.0',
+160 silly addNameRange     '0.3.1',
+160 silly addNameRange     '0.4.0',
+160 silly addNameRange     '0.4.1',
+160 silly addNameRange     '1.0.0',
+160 silly addNameRange     '1.0.1',
+160 silly addNameRange     '1.0.2',
+160 silly addNameRange     '1.0.3',
+160 silly addNameRange     '2.0.0',
+160 silly addNameRange     '3.0.0',
+160 silly addNameRange     '3.0.1',
+160 silly addNameRange     '3.0.2',
+160 silly addNameRange     '4.0.0',
+160 silly addNameRange     '5.0.0',
+160 silly addNameRange     '6.0.0',
+160 silly addNameRange     '7.0.0',
+160 silly addNameRange     '8.0.0',
+160 silly addNameRange     '8.0.1',
+160 silly addNameRange     '8.0.2',
+160 silly addNameRange     '8.0.3',
+160 silly addNameRange     '9.0.0',
+160 silly addNameRange     '9.0.1',
+160 silly addNameRange     '10.0.0' ] ]
+161 verbose addNamed js-tokens@4.0.0
+162 silly addNamed semver.valid 4.0.0
+163 silly addNamed semver.validRange 4.0.0
+164 silly cache afterAdd js-tokens@4.0.0
+165 verbose afterAdd /home/codespace/.npm/js-tokens/4.0.0/package/package.json not in flight; writing
+166 verbose afterAdd /home/codespace/.npm/js-tokens/4.0.0/package/package.json written
+167 silly install resolved [ { name: 'js-tokens',
+167 silly install resolved     version: '4.0.0',
+167 silly install resolved     keywords: [ 'JavaScript', 'js', 'token', 'tokenize', 'regex' ],
+167 silly install resolved     author: { name: 'Simon Lydell' },
+167 silly install resolved     license: 'MIT',
+167 silly install resolved     _id: 'js-tokens@4.0.0',
+167 silly install resolved     maintainers: [ [Object] ],
+167 silly install resolved     homepage: 'https://github.com/lydell/js-tokens#readme',
+167 silly install resolved     bugs: { url: 'https://github.com/lydell/js-tokens/issues' },
+167 silly install resolved     dist:
+167 silly install resolved      { shasum: '19203fb59991df98e3a287050d4647cdeaf32499',
+167 silly install resolved        tarball: 'https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz',
+167 silly install resolved        integrity: 'sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==',
+167 silly install resolved        signatures: [Object] },
+167 silly install resolved     files: [ 'index.js' ],
+167 silly install resolved     gitHead: '0eb6e9daee32160ab0fca979b6dc91a1991b720c',
+167 silly install resolved     scripts:
+167 silly install resolved      { dev: 'npm run build && npm test',
+167 silly install resolved        test: 'mocha --ui tdd',
+167 silly install resolved        build: 'node generate-index.js',
+167 silly install resolved        'esprima-compare': 'node esprima-compare ./index.js everything.js/es5.js' },
+167 silly install resolved     _npmUser: { name: 'lydell', email: 'simon.lydell@gmail.com' },
+167 silly install resolved     repository:
+167 silly install resolved      { url: 'git+https://github.com/lydell/js-tokens.git',
+167 silly install resolved        type: 'git' },
+167 silly install resolved     _npmVersion: '5.6.0',
+167 silly install resolved     description: 'A regex that tokenizes JavaScript.',
+167 silly install resolved     directories: {},
+167 silly install resolved     _nodeVersion: '8.9.4',
+167 silly install resolved     devDependencies:
+167 silly install resolved      { mocha: '5.0.0',
+167 silly install resolved        esprima: '4.0.0',
+167 silly install resolved        coffeescript: '2.1.1',
+167 silly install resolved        'everything.js': '1.0.3' },
+167 silly install resolved     _npmOperationalInternal:
+167 silly install resolved      { tmp: 'tmp/js-tokens-4.0.0.tgz_1517140737182_0.3507722308859229',
+167 silly install resolved        host: 's3://npm-registry-packages' },
+167 silly install resolved     _shasum: '19203fb59991df98e3a287050d4647cdeaf32499',
+167 silly install resolved     _resolved: 'https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz',
+167 silly install resolved     _from: 'js-tokens@>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+167 silly install resolved     readme: 'ERROR: No README data found!' } ]
+168 info install js-tokens@4.0.0 into /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+169 info installOne js-tokens@4.0.0
+170 verbose installOne of js-tokens to /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify not in flight; installing
+171 verbose lock using /home/codespace/.npm/_locks/js-tokens-203ed05237511bc5.lock for /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+172 silly install write writing js-tokens 4.0.0 to /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+173 silly cache addNamed cb js-tokens@4.0.0
+174 verbose unbuild node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+175 verbose gentlyRm vacuuming /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+176 verbose tar unpack /home/codespace/.npm/js-tokens/4.0.0/package.tgz
+177 verbose tar unpacking to /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+178 verbose gentlyRm vacuuming /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+179 silly gunzTarPerm modes [ '755', '644' ]
+180 silly gunzTarPerm extractEntry package.json
+181 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+182 silly gunzTarPerm extractEntry CHANGELOG.md
+183 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+184 silly gunzTarPerm extractEntry index.js
+185 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+186 silly gunzTarPerm extractEntry LICENSE
+187 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+188 silly gunzTarPerm extractEntry README.md
+189 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+190 info preinstall js-tokens@4.0.0
+191 silly install resolved []
+192 verbose about to build /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+193 info build /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+194 verbose linkStuff [ false,
+194 verbose linkStuff   false,
+194 verbose linkStuff   false,
+194 verbose linkStuff   '/workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules' ]
+195 info linkStuff js-tokens@4.0.0
+196 verbose linkBins js-tokens@4.0.0
+197 verbose linkMans js-tokens@4.0.0
+198 verbose rebuildBundles js-tokens@4.0.0
+199 info install js-tokens@4.0.0
+200 info postinstall js-tokens@4.0.0
+201 verbose unlock done using /home/codespace/.npm/_locks/js-tokens-203ed05237511bc5.lock for /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify/node_modules/js-tokens
+202 verbose about to build /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+203 info build /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+204 verbose linkStuff [ false,
+204 verbose linkStuff   false,
+204 verbose linkStuff   false,
+204 verbose linkStuff   '/workspaces/clone-dev-news/node_modules/react/node_modules' ]
+205 info linkStuff loose-envify@1.4.0
+206 verbose linkBins loose-envify@1.4.0
+207 verbose link bins [ { 'loose-envify': 'cli.js' },
+207 verbose link bins   '/workspaces/clone-dev-news/node_modules/react/node_modules/.bin',
+207 verbose link bins   false ]
+208 verbose linkMans loose-envify@1.4.0
+209 verbose rebuildBundles loose-envify@1.4.0
+210 verbose rebuildBundles [ 'js-tokens' ]
+211 verbose gentlyRm vacuuming /workspaces/clone-dev-news/node_modules/react/node_modules/.bin/loose-envify
+212 info install loose-envify@1.4.0
+213 info postinstall loose-envify@1.4.0
+214 verbose unlock done using /home/codespace/.npm/_locks/loose-envify-48795b1356395cb1.lock for /workspaces/clone-dev-news/node_modules/react/node_modules/loose-envify
+215 verbose about to build /workspaces/clone-dev-news/node_modules/react
+216 info build /workspaces/clone-dev-news/node_modules/react
+217 verbose linkStuff [ false, false, false, '/workspaces/clone-dev-news/node_modules' ]
+218 info linkStuff react@18.2.0
+219 verbose linkBins react@18.2.0
+220 verbose linkMans react@18.2.0
+221 verbose rebuildBundles react@18.2.0
+222 verbose rebuildBundles [ '.bin', 'loose-envify' ]
+223 info install react@18.2.0
+224 info postinstall react@18.2.0
+225 verbose unlock done using /home/codespace/.npm/_locks/react-d04e219dea3d3803.lock for /workspaces/clone-dev-news/node_modules/react
+226 verbose stack Error: The package react does not satisfy its siblings' peerDependencies requirements!
+226 verbose stack     at /usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/lib/install.js:103:32
+226 verbose stack     at /usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/lib/install.js:225:5
+226 verbose stack     at /usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+226 verbose stack     at /usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+226 verbose stack     at cb (/usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+226 verbose stack     at /usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+226 verbose stack     at cb (/usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+226 verbose stack     at /usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+226 verbose stack     at cb (/usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+226 verbose stack     at /usr/local/share/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+227 verbose cwd /workspaces/clone-dev-news
+228 error Linux 6.8.0-1030-azure
+229 error argv "/home/codespace/nvm/current/bin/node" "/home/codespace/nvm/current/bin/npm" "install" "react@18.2.0"
+230 error node v0.12.0
+231 error npm  v2.5.1
+232 error code EPEERINVALID
+233 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+233 error peerinvalid Peer react-dom@18.3.1 wants react@^18.3.1
+234 verbose exit [ 1, true ]
