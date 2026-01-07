@@ -1,11 +1,21 @@
 function Home() {
   return (
     <h1>
-      Não há nada que você possa fazer para Deus te amar mais; e não há nada que
+      Eu mesmo fiz o mapa
       <br></br>
-      você possa fazer para Deus te amar menos.
+      Que leva Até o paraíso
+      <br></br>
+      Achei a chave que abre
+      <br></br>
+      dilui o nosso juízo
+      <br></br>
+      quando te vi
+      <br></br>
+      você me viu...
+      <br></br>
+      <br></br>
       <p>
-        <strong>Philip Yancey</strong>
+        <strong>Te amo!</strong>
       </p>
     </h1>
   )
