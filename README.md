@@ -1,2 +1,3 @@
 # clone-dev-news
-A project to learning 
+
+A project to learning

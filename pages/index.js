@@ -18,7 +18,7 @@ function Home() {
         <strong>Te amo!</strong>
       </p>
     </h1>
-  )
+  );
 }
 
-export default Home
+export default Home;
